@@ -1,32 +1,4 @@
 #M.T.N Sevive
-'''
-balance = 1000
-borrow_airtime_limit = 400
-borrow_data_limit = 500
-dept = 0
-
-ussd_code = input("USSD Code:...")
-if ussd_code == "*555#":
-	while True:
-    		print("1. check balance: ")
-    		print("2. Buy data: ")
-    		print("3, Buy airtime: ")
-    		print("4. Borrow service: ")
-    		break
-	choice = int(input("input choice: "))
-	
-	if choice == 1:
-		print("your balance is :{balance}")
-	break
-'''
-'''
-sum_number = 0
-
-for nums in range(1,101):
-	if nums % 2 == 0:
-		sum_number += nums
-print(sum_number)
-'''
 
 balance = 1000
 borrow_airtime_limit = 400
